@@ -45,5 +45,6 @@ return (
     </section>
 );
 }
-
+ 
 export default Gallery;
+
