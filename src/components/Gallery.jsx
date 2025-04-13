@@ -27,10 +27,11 @@ function Gallery ({tours, setTours, onRemove}) {
     fetchTours();
 }, [setTours]);
 
+// Render loading or error state
 if (loading) {
     return <h2>Loading...</h2>;
 }
-
+// Render error state
 if (error) { 
     return <h2>{error}</h2>;
 }
