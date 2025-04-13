@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  .tour-card {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .tour-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .tour-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price {
+    color: #0a9396;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .btn-remove {
+    background: #ee6c4d;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
