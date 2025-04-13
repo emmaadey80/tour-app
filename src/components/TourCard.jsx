@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+// Elements in TourCard
 const TourCard = ({id, name, info, image, price, onRemove}) => {
 
         //local state to toggle Read More / Show Less 
